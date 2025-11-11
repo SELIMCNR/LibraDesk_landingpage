@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LibraDesk – Kişisel Dijital Kütüphane</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #f8f9fa; font-family: 'Segoe UI', sans-serif; }
+    .hero { background-color: #ffffff; padding: 60px 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .feature-icon { font-size: 32px; color: #007bff; }
+    .premium-badge { background-color: #ffc107; color: #212529; font-weight: bold; padding: 4px 8px; border-radius: 6px; }
+    .footer { font-size: 14px; color: #6c757d; margin-top: 60px; text-align: center; }
+  </style>
+</head>
+<body>
+
+<div class="container py-5">
+  <!-- Başlık -->
+  <div class="text-center mb-5">
+    <h1 class="display-5 fw-bold">📚 LibraDesk Standart</h1>
+    <p class="lead">Kişisel dijital kütüphanenizi sade, güvenli ve reklamsız bir masaüstü uygulamayla yönetin.</p>
+    <span class="premium-badge">💎 Premium Sürüm Yakında!</span>
+  </div>
+
+  <!-- Hero Bölümü -->
+  <div class="hero mb-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h2>Standart Paket Özellikleri</h2>
+        <ul class="list-unstyled mt-4">
+          <li class="mb-3"><span class="feature-icon">✅</span> Kitap ekleme, silme, güncelleme</li>
+          <li class="mb-3"><span class="feature-icon">🔍</span> Yazar ve tür bazlı arama</li>
+          <li class="mb-3"><span class="feature-icon">🗂️</span> Otomatik tür/yazar gruplama</li>
+          <li class="mb-3"><span class="feature-icon">💾</span> SQLite veritabanı – offline kullanım</li>
+          <li class="mb-3"><span class="feature-icon">🖥️</span> Windows 10/11 uyumlu</li>
+        </ul>
+        <p class="mt-4"><strong>Standart Paket Ücreti:</strong> ₺49 (tek seferlik)</p>
+        <a href="https://github.com/SELIMCNR/KisiselDijitalKutuphane" class="btn btn-outline-primary btn-lg mt-2" target="_blank">GitHub'dan İncele</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="assets/Ekran1.png" alt="LibraDesk Ekran Görüntüsü" class="img-fluid rounded shadow-sm">
+      </div>
+    </div>
+  </div>
+
+  <!-- Premium Bilgilendirme -->
+  <div class="text-center mb-5">
+    <h3>Premium Sürüm Neler Sunacak?</h3>
+    <p class="mt-3">İstatistik paneli, tema/dil ayarları, yedekleme, PDF raporlama ve daha fazlası yakında geliyor.</p>
+    <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#premiumModal">Özellikleri Keşfet</a>
+  </div>
+
+  <!-- SSS -->
+  <div class="row">
+    <div class="col-md-6">
+      <h4>Sık Sorulan Sorular</h4>
+      <ul class="list-group list-group-flush mt-3">
+        <li class="list-group-item"><strong>Verilerim nerede saklanıyor?</strong> Tüm veriler sadece sizin bilgisayarınızda tutulur.</li>
+        <li class="list-group-item"><strong>İnternet gerekiyor mu?</strong> Hayır, uygulama tamamen offline çalışır.</li>
+        <li class="list-group-item"><strong>Reklam var mı?</strong> Hayır, reklamsız ve sade bir deneyim sunar.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h4>İletişim</h4>
+      <p class="mt-3">Her türlü soru ve geri bildirim için:</p>
+      <p><strong>E-posta:</strong> codexiatechhq@gmail.com</p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/SELIMCNR/KisiselDijitalKutuphane" target="_blank">github.com/SELIMCNR/KisiselDijitalKutuphane</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/selim-%C3%A7inar-a85a25220/" target="_blank">linkedin.com/in/selimcnr</a></p>
+      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/codexiatechhq/" target="_blank">instagram/selimcnr</a></p>
+      <p><strong>Tıktok:</strong> <a href="https://www.tiktok.com/@codexiatech?lang=tr-TR" target="_blank">tiktok/selimcnr</a></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    © 2025 LibraDesk | Codexia Technologies
+  </div>
+</div>
+
+<!-- Premium Özellikler Modal -->
+<div class="modal fade" id="premiumModal" tabindex="-1" aria-labelledby="premiumModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+   <div class="modal-header">
+  <h5 class="modal-title" id="premiumModalLabel">💎 LibraDesk Premium Özellikleri</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat" tabindex="-1"></button>
+</div>
+      <div class="modal-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong>📊 İstatistik Paneli:</strong> Kitap tür dağılımı, en popüler yazarlar, okuma trendleri</li>
+          <li class="list-group-item"><strong>🎨 Tema ve Dil Ayarları:</strong> Karanlık mod, pastel temalar, Türkçe/İngilizce dil desteği</li>
+          <li class="list-group-item"><strong>🗂️ Yedekleme ve Geri Yükleme:</strong> Veritabanı yedekleme, geri alma, Dropbox entegrasyonu</li>
+          <li class="list-group-item"><strong>📄 PDF Raporlama:</strong> Kitap listesi ve istatistikleri A4 formatında dışa aktar</li>
+          <li class="list-group-item"><strong>🔐 Lisanslama ve Rol Sistemi:</strong> Admin yetkileri, kullanıcı rolleri, lisans anahtarı doğrulama</li>
+        </ul>
+        <p class="mt-4 text-muted">Premium sürüm çok yakında! Gelişmeleri takip etmek için GitHub sayfamızı ziyaret edin.</p>
+      </div>
+     <div class="modal-footer">
+  <a href="https://github.com/SELIMCNR/KisiselDijitalKutuphane" target="_blank" class="btn btn-outline-primary" tabindex="-1">GitHub'dan Takip Et</a>
+  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" tabindex="-1">Kapat</button>
+</div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
